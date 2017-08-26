@@ -96,13 +96,13 @@ def str_time(strtime):
 def assetBelong(asset_belong):
 	asset_belong = asset_belong
 	if asset_belong == 1 :
-		asset_belong = '广州要玩'
+		asset_belong = '广州'
 	elif asset_belong == 2 :
-		asset_belong = '华港'
+		asset_belong = '上海'
 	elif asset_belong == 3 :
-		asset_belong = '奥帆'
+		asset_belong = '北京'
 	elif asset_belong == 4 :
-		asset_belong = '珠海要玩'
+		asset_belong = '珠海'
 	return asset_belong
 
 # 资产类型
